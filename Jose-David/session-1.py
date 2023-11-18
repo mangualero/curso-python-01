@@ -9,9 +9,9 @@ OPEN = 'The windows'
 #Numericos enteros
 
 Empanada = 4
-Año = 2023
-Mes = 11
-Día = 31
+Year = 2023
+Mounth = 11
+Day = 31
 Helado = 1.000
 
 # Numerico decimiales
@@ -32,9 +32,9 @@ String_5 = 'Hi'
 
 #Boolean
 
-Te_gusta_la_carne = True
+Do_you_like_meat = True
 Estas_Mintiendo_= False
 
-print(PIEDRITA,NUMS,LEARNING,SEE,OPEN,Empanada,Año,Mes,Día,Helado,Math,Cience,Social,English,Spanish,String_1,String_2,String_3,String_4,String_5)
+print(PIEDRITA,NUMS,LEARNING,SEE,OPEN,Empanada,Year,Mounth,Day,Helado,Math,Cience,Social,English,Spanish,String_1,String_2,String_3,String_4,String_5)
 
 
