@@ -10,6 +10,6 @@ institute = "María Auxiliadora"
 
 id_number = 1056982365
 phone_number = 3137573948
-Age = 37
+age = 37
 number_of_children = 1
 number_of_votes= 350
