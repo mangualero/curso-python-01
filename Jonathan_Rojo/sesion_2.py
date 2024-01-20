@@ -1,16 +1,16 @@
 # Nombre de la escuela 1
 
-name_of_school1 = "María auxiliadora"
+name_of_school1 = "Cardenal"
 type_of_school1 = "Pública"
-number_of_students1 = 220
-number_of_teachers1 = 5
+number_of_students1 = 2540
+number_of_teachers1 = 32
 
 # Nombre de la escuela 2
 
-name_of_school2 = "Porfirio Barba Jacob"
+name_of_school2 = "Normal superior"
 type_of_school2 = "Pública"
-number_of_students2 = 300
-number_of_teachers2 = 7
+number_of_students2 = 1785
+number_of_teachers2 = 23
 
 #  ¿Las dos escuelas se llaman igual?
 
