@@ -1,6 +1,6 @@
 students = [ ['Jhonatan', True], 
-             ['Mariana', 'Rodrigues',True], 
-             ['José','Fernandes', False], 
+             ['Mariana',True], 
+             ['José', False], 
              ['Weimar',False], 
              ['Cristian',True] 
             ]
