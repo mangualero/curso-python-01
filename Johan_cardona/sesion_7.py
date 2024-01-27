@@ -1,4 +1,3 @@
-
 # Activity
 cities = [
     {"id": 1, "name": "Bogotá"},
@@ -123,6 +122,6 @@ lista_usuarios = [
 
 # Filtrado por Ciudad: apartir del id de una ciudad obtener todos los diccionarios de personas que viven en esa ciudad.
 
-# Actualización de Datos: AL ingresar el  'id' de una persona actualizar su información (nombre, edad, ciudad) en el diccionario correspondiente. 
+# Actualización de Datos: AL ingresar el  'id' de una persona actualizar su información (nombre, edad, ciudad) en el diccionario correspondiente.
 
 # Combinación de Datos: Crear un lista que tenga el nombre del cliente y el nombre de la ciudad.
