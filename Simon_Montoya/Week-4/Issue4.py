@@ -816,32 +816,28 @@ while i < len(books):
 
 #print(numYear)
 
-# Número de libros por país
-allBooks = []
 
-for i in range(len(books)):
-  if books[i]['country']:
-    allBooks.append(books[i]['country'])
+allInfo = []
+def orderByParameter(word):
+  for i in range(len(books)):
+    if books[i][word]:
+      allInfo.append(books[i][word])
+orderByParameter('author')
 
-numBooksPerCountry = { i: allBooks.count(i) for i in allBooks}
+numBooksPerCountry = { i: allInfo.count(i) for i in allInfo}
+#print(numBooksPerCountry)
 
-# Número de libros por lenguaje
-allLenguages = []
 
-for i in range(len(books)):
-  if books[i]['language']:
-    allLenguages.append(books[i]['language'])
+def sortByCategory(category, word):
+  ordered = {}
+  for i in books:
+    ordered.setdefault(i[category], [])
+    ordered[i[category]].append(i[word])
+  print(ordered)
+sortByCategory('category', 'author')
 
-numBooksPerLanguage = { i: allLenguages.count(i) for i in allLenguages }
 
-# Número de libros por autor
-allAuthors = []
 
-for i in range(len(books)):
-  if books[i]['author']:
-    allAuthors.append(books[i]['author'])
-
-numBooksPerAuthor = { i: allAuthors.count(i) for i in allAuthors }
 
 
 
