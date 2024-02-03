@@ -40,3 +40,40 @@ if type_of_school1 == type_of_school2:
 else:
     print('Las escuelas no son del mismo tipo')
 
+# Ejercicios semana 3
+    
+# Evaluacion de edades
+    
+edad = int(input('Ingrese su edad: '))
+
+if(edad < 12):
+    print('Niño')
+if(edad >= 12 and edad <= 18):
+    print('Adolescente')
+if(edad > 18):
+    print('Adulto')
+
+# Comprobacion de contraseña
+
+contraseña = input('Ingrese contraseña: ')
+
+if(contraseña == 'Contraseña123'):
+    print('Concedido')
+else:
+    print('Denegado')
+
+# Clasificacion de numeros
+
+num1 = int(input('ingrese un numero: '))
+num2 = int(input('ingrese otro numero: '))
+num3 = int(input('ingrese otro numero: '))
+
+if(num1 > num2 and num1 > num3 and num2 > num3):
+    print('Descendentes')
+elif(num1 < num2 and num1 < num3 and num2 < num3):
+    print('Ascendentes')
+else:
+    print('Numeros desordenados')
+
+
+    

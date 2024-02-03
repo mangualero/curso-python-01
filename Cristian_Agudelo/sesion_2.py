@@ -1,14 +1,14 @@
 # Nombre de la escuela 1
 
 name_of_school1 = "María auxiliadora"
-type_of_school1 = "Pública"
+type_of_school = "Pública"
 number_of_students1 = 220
 number_of_teachers1 = 5
 
 # Nombre de la escuela 2
 
 name_of_school2 = "Porfirio Barba Jacob"
-type_of_school2 = "Pública"
+type_of_school = "Pública"
 number_of_students2 = 300
 number_of_teachers2 = 7
 
@@ -26,7 +26,7 @@ more_teachers = number_of_teachers1 > number_of_students2
 
 #  ¿Son de distinto tipo?
 
-types_of_schools = type_of_school1 == type_of_school2
+types_of_schools = name_of_school1 == name_of_school2
 
 #  Sumar el total de estudiantes por escuela.
 
