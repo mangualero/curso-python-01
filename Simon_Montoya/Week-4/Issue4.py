@@ -831,10 +831,9 @@ numBooksPerCountry = { i: allInfo.count(i) for i in allInfo}
 def sortByCategory(category, word):
   ordered = {}
   for i in books:
-    ordered.setdefault(i[category], [])
-    ordered[i[category]].append(i[word])
+    ordered.update({i[category]: i[word]})
   print(ordered)
-sortByCategory('category', 'author')
+sortByCategory('language', 'title')
 
 
 
